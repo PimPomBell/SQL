@@ -1,0 +1,163 @@
+--INSERT
+
+--MsStaff
+INSERT INTO MsStaff VALUES 
+('ST001', 'Randy Gaysin', 'Male', 'rell0@gmail.com', '8 Melvs Pants', '120000'),
+('ST002', 'Dinoes Bambim', 'Male', 'ddino@gmail.com', '40 Salt Alley', '335000'),
+('ST003', 'Rayzer Origon', 'Male', 'zer012@gmail.com', '666 Hells Park',  '490000'),
+('ST004', 'Cherhiela Axe', 'Female', 'risss@gmail.com',  '800 Sugar Street', '155000'),
+('ST005', 'Oemar Alexis', 'Male', 'Maris@gmail.com', '789 Sure Pass', '450000'),
+('ST006', 'Paul McCutcheon', 'Male', 'pmccutcheon5@gmail.com', '7 Trail State', '250000'),
+('ST007', 'Silvysia Georgia', 'Female', 'sgia51@gmail.com', '1801 Maryland Hill', '325000'),
+('ST008', 'Jessica Ecaste', 'Female', 'jessecas@gmail.com', '12 Molten Strett', '432000'),
+('ST009', 'Wilbert Francino', 'Male', 'wfrancino@gmail.com', '21840 Golden Leaf Avenue', '210000'),
+('ST010', 'Sandy Snowy', 'Female', 'ssnow9@gmail.com', '70 Eagle Crest Hill', '170000')
+
+--MsVendor
+INSERT INTO MsVendor VALUES 
+('VE001', 'Clementines', '0975 Forest Dale Trail', 'clm1919@gmail.com', '081245618855'),
+('VE002', 'Elijah Thomas', '2323 Oakwood Avenue', 'esmith23@gmail.com', '081258465123'),
+('VE003', 'Olivia Johnson', '890 Juniper Drive', 'oliviajohnson890@gmail.com', '081235874910'),
+('VE004', 'Liam Anderson', '1175 Elm Street', 'liam1175@gmail.com', '081210593726'),
+('VE005', 'Aveloriusi', '4098 Willow Lane', 'ave4098@gmail.com', '081264839475'),
+('VE006', 'Noah Wilson', '5512 Birchwood Court', 'noahwilson5512@gmail.com', '081242647383'),
+('VE007', 'Sophia Thompson', '687 Maple Avenue', 'sophiathompson687@gmail.com', '081231456787'),
+('VE008', 'Jackson Lee', '123 Pine Street', 'jacksonlee123@gmail.com', '081290738291'),
+('VE009', 'Emma Wright', '2217 Cedar Lane', 'emmawright2217@gmail.com', '081275940256'),
+('VE010', 'Aiden Harris', '3678 Aspen Drive', 'aidenharris3678@gmail.com', '081221234567')
+
+--MsShoes
+INSERT INTO MsShoes VALUES 
+('SH001', 'Vadidas Black Bullet', '130000', 'Black with dots (Sport)'),
+('SH002', 'Vadidas White Storm', '189000', 'White with lightning pattern (Casual)'),
+('SH003', 'Vadidas Red Climb', '105000', 'Red with flame design (Casual)'),
+('SH004', 'Vadidas Blue Lightning', '98000', 'Blue with electric bolt graphics (Casual)'),
+('SH005', 'Vadidas Green Thunder', '82000', 'Green with thunderstorm (Casual)'),
+('SH006', 'Vadidas Silver Strike', '292000', 'Silver with strike marks (Sport)'),
+('SH007', 'Vadidas Cream Haze', '168000', 'Cream with hazy pattern (Casual)'),
+('SH008', 'Vadidas Pink Dream', '77000', 'Pink with dreamy texture (Sport)'),
+('SH009', 'Vadidas Gold Rush', '128000', 'Gold with shiny metallic finish (Casual)'),
+('SH010', 'Vadidas Orange Fury', '118000', 'Orange with fiery details (Sport)')
+
+--MsCustomer
+INSERT INTO MsCustomer VALUES 
+('CU001', 'Nani Omarung', 'Male', '1989-04-21', '149 Orchard Road', 'nanmaru@gmail.com'),
+('CU002', 'Liam Johnson Ombawe', 'Male', '1992-08-17', '987 Elm Street', 'ljoiam9@gmail.com'),
+('CU003', 'Sophieshia Leo', 'Female', '2000-11-30', '654 Birchwood Lane', 'sophie654@gmail.com'),
+('CU004', 'Emma Wright Freight', 'Female', '1990-06-03', '321 Maple Avenue', 'emmawf321@gmail.com'),
+('CU005', 'Aiden Harden Burden', 'Male', '1993-02-14', '789 Pine Street', 'aiden789@gmail.com'),
+('CU006', 'Oliver Davis', 'Male', '2001-09-26', '456 Cedar Lane', 'oliver456@gmail.com'),
+('CU007', 'Ava Thompson', 'Female', '1998-04-09', '123 Willow Court', 'ava123@gmail.com'),
+('CU008', 'Noah Wilson taylor', 'Male', '1999-12-12', '876 Oakwood Avenue', 'wloah876@gmail.com'),
+('CU009', 'Isabella Harris Ews', 'Female', '1994-07-05', '543 Juniper Drive', 'isabella543@gmail.com'),
+('CU010', 'Mason Anderson', 'Male', '1997-03-28', '210 Aspen Drive', 'masander12@gmail.com')
+
+--TransactionHeader
+INSERT INTO TransactionHeader VALUES 
+('TR001', 'ST003', 'CU001', '2022-02-13'),
+('TR002', 'ST004', 'CU009', '2022-03-05'),
+('TR003', 'ST002', 'CU006', '2022-04-17'),
+('TR004', 'ST008', 'CU002', '2022-05-10'),
+('TR005', 'ST001', 'CU007', '2022-06-22'),
+('TR006', 'ST006', 'CU005', '2022-07-15'),
+('TR007', 'ST005', 'CU004', '2022-08-27'),
+('TR008', 'ST010', 'CU010', '2022-09-19'),
+('TR009', 'ST009', 'CU003', '2022-10-31'),
+('TR010', 'ST007', 'CU008', '2022-11-24'),
+('TR011', 'ST006', 'CU007', '2023-02-12'),
+('TR012', 'ST002', 'CU008', '2023-03-18'),
+('TR013', 'ST004', 'CU009', '2023-04-24'),
+('TR014', 'ST009', 'CU003', '2023-05-30'),
+('TR015', 'ST008', 'CU006', '2023-07-05'),
+('TR016', 'ST001', 'CU004', '2023-08-11'),
+('TR017', 'ST010', 'CU005', '2023-08-17'),
+('TR018', 'ST007', 'CU002', '2023-09-23'),
+('TR019', 'ST005', 'CU010', '2023-10-29'),
+('TR020', 'ST003', 'CU001', '2023-11-04'),
+('TR021', 'ST006', 'CU007', '2023-11-10'),
+('TR022', 'ST002', 'CU008', '2023-12-12'),
+('TR023', 'ST004', 'CU009', '2023-12-18'),
+('TR024', 'ST009', 'CU003', '2023-12-25'),
+('TR025', 'ST004', 'CU001', '2023-12-30')
+
+--TransactionDetail
+INSERT INTO TransactionDetail VALUES
+('TR001', 'SH005', '2'),
+('TR002', 'SH009', '7'),
+('TR003', 'SH003', '4'),
+('TR004', 'SH007', '6'),
+('TR005', 'SH002', '1'),
+('TR006', 'SH006', '3'),
+('TR007', 'SH010', '0'),
+('TR008', 'SH001', '5'),
+('TR009', 'SH008', '9'),
+('TR010', 'SH004', '2'),
+('TR011', 'SH010', '10'),
+('TR012', 'SH006', '8'),
+('TR013', 'SH001', '4'),
+('TR014', 'SH002', '2'),
+('TR015', 'SH009', '0'),
+('TR016', 'SH007', '7'),
+('TR017', 'SH005', '3'),
+('TR018', 'SH003', '5'),
+('TR019', 'SH008', '1'),
+('TR020', 'SH004', '6'),
+('TR021', 'SH010', '9'),
+('TR022', 'SH006', '0'),
+('TR023', 'SH001', '8'),
+('TR024', 'SH002', '4'),
+('TR025', 'SH009', '2')
+
+INSERT INTO PurchaseHeader VALUES
+('PU001', 'ST002', 'VE005', '2020-01-25'),
+('PU002', 'ST006', 'VE003', '2020-02-15'),
+('PU003', 'ST003', 'VE009', '2020-04-25'),
+('PU004', 'ST010', 'VE007', '2020-06-11'),
+('PU005', 'ST004', 'VE010', '2020-07-05'),
+('PU006', 'ST001', 'VE008', '2020-08-23'),
+('PU007', 'ST009', 'VE002', '2020-10-01'),
+('PU008', 'ST002', 'VE005', '2020-11-30'),
+('PU009', 'ST005', 'VE001', '2020-12-01'),
+('PU010', 'ST007', 'VE004', '2021-01-15'),
+('PU011', 'ST001', 'VE009', '2021-02-20'),
+('PU012', 'ST006', 'VE006', '2021-03-25'),
+('PU013', 'ST010', 'VE002', '2021-04-12'),
+('PU014', 'ST003', 'VE004', '2021-05-23'),
+('PU015', 'ST005', 'VE008', '2021-06-21'),
+('PU016', 'ST004', 'VE001', '2021-07-31'),
+('PU017', 'ST008', 'VE007', '2021-08-02'),
+('PU018', 'ST009', 'VE010', '2021-08-15'),
+('PU019', 'ST002', 'VE003', '2021-09-30'),
+('PU020', 'ST007', 'VE005', '2021-10-17'),
+('PU021', 'ST006', 'VE004', '2021-10-27'),
+('PU022', 'ST001', 'VE001', '2021-11-20'),
+('PU023', 'ST003', 'VE009', '2021-12-01'),
+('PU024', 'ST004', 'VE006', '2021-12-13'),
+('PU025', 'ST010', 'VE010', '2021-12-20')
+
+INSERT INTO PurchaseDetail VALUES 
+('PU001', 'SH001', '20'),
+('PU002', 'SH003', '25'),
+('PU003', 'SH010', '33'),
+('PU004', 'SH002', '10'),
+('PU005', 'SH009', '15'),
+('PU006', 'SH005', '8'),
+('PU007', 'SH008', '27'),
+('PU008', 'SH004', '38'),
+('PU009', 'SH007', '19'),
+('PU010', 'SH006', '14'),
+('PU011', 'SH001', '28'),
+('PU012', 'SH003', '36'),
+('PU013', 'SH010', '7'),
+('PU014', 'SH002', '18'),
+('PU015', 'SH009', '30'),
+('PU016', 'SH005', '11'),
+('PU017', 'SH008', '23'),
+('PU018', 'SH004', '37'),
+('PU019', 'SH007', '16'),
+('PU020', 'SH006', '26'),
+('PU021', 'SH001', '9'),
+('PU022', 'SH003', '22'),
+('PU023', 'SH010', '32'),
+('PU024', 'SH002', '12'),
+('PU025', 'SH009', '35')
